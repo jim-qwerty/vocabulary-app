@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./index.css" // debe tener: @import "tailwindcss"; y (opcional) @plugin "tailwindcss-animate";
+import "./styles/index.css" // debe tener: @import "tailwindcss"; y (opcional) @plugin "tailwindcss-animate";
 
 export default function App() {
   const [mounted, setMounted] = useState(false)
